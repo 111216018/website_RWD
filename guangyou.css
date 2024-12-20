@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 導覽列樣式 */
+nav {
+    display: flex; /* 使用 flex 排版 */
+    align-items: center; /* 垂直置中 */
+    justify-content: space-between; /* 左右對齊 */
+    background-color: #f8f8f8; /* 背景顏色 */
+    padding: 10px 20px; /* 上下和左右內邊距 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 添加陰影 */
+}
+
+/* Logo 區域 */
+.logo img {
+    width: 50px;
+    height: auto;
+}
+
+/* 導覽連結樣式 */
+.nav-links {
+    list-style: none; /* 移除項目符號 */
+    display: flex; /* 使用 flex 水平排列 */
+    gap: 20px; /* 設定項目之間的間距 */
+}
+
+.nav-links li a {
+    text-decoration: none; /* 移除底線 */
+    color: #333; /* 文字顏色 */
+    font-size: 18px;
+    font-weight: 600;
+    transition: color 0.3s ease; /* 滑鼠懸停時顏色轉變 */
+}
+
+.nav-links li a:hover {
+    color: #4b0082; /* 滑鼠懸停變色 */
+}
+
+
+body {
+    padding: 10px;
+}
+div {
+    padding: 20 px;
+}
